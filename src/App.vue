@@ -1,25 +1,25 @@
 <template>
-  <div>
-    App
-  </div>
+  <v-layout>
+    <v-app-bar color="grey-lighten-2"></v-app-bar>
+    <v-navigation-drawer color="grey-darken-2" permanent></v-navigation-drawer>
+    <v-main>
+      <v-card height="200px"></v-card>
+    </v-main>
+  </v-layout>
 </template>
 
 <script>
 
+
 export default {
   name: 'App',
+
   components: {
-  }
+
+  },
+
+  data: () => ({
+    //
+  }),
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
